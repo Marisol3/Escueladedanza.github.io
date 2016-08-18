@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Escuela de Danza</title>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="img/icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	</head>
+<body>
+	<!--INICIO-->
+	<div class="header">
+		<h1 id="tit_menu">ESCUELA DE DANZA</h1>
+		<ul class="menu">
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="clases.html">Clases</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="#contact">Contáctanos</a></li>
+		</ul>
+	</div>
+	<!--CAROUSEL-->
+	<div class="margin"></div>
+	  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	    </ol>
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner" role="listbox">
+	    <div class="descripcion">
+	    	<h1><b>STUDIO</b></h1>
+	    	<p>Julliart Studios is the perfect place to find you feet with over 20 unique styles of dance and 80 teachers to choose from.</p>
+	    	<button class="boton-blue"><a href="nosotros.html#contact">Inscríbete</a></button>
+	    </div>
+	      <div class="item active">
+	        <img src="img/dance_1.jpg" alt="..." width="100%" height="500px">
+	        <div class="carousel-caption"></div>
+	      </div>
+	      <div class="item">
+	        <img src="img/dance_8.jpg" alt="..." width="100%" height="500px">
+	        <div class="carousel-caption"></div>
+	      </div>
+	      <div class="item">
+	        <img src="img/dance_3.jpg" alt="..." width="100%" height="500px">
+	        <div class="carousel-caption"></div>
+	      </div>
+	    </div>
+	    <!-- Controls -->
+	    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  $('.carousel').carousel({
+  interval: 6000
+  })
+  </script>
+
+  <div class="oferta">
+  	<h3>Julliard con una amplia trayectoria y reputacion, brindando una formacion de excelencia a cientos de amantes de danza</h3>
+  	<img src="img/decoration_2.png">
+  	<button class="boton-blue medium"><a href="clases.html">Oferta de Clases</a></button>
+  </div>
+  <div class="row nano">
+  	<div class="boy col-6"></div>
+  	<div class="girl col-6"></div>
+  	<button class="boton-blue large"><a href="nosotros.html#instructores">Nuestros Instructores</a></button>
+  </div>
+  <div class="row oferta">
+  		<h3 class="font-40"><em>"La danza es un poema  en el que cada movimiento es una palabra"</em></h3>
+  		
+  </div>
+<!-- Mapa -->
+		<div class="row blue_mapa">
+			<div class="col-6 ">
+				<p class="espacio_pd font-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque facilis necessitatibus et, rem praesentium. Minus soluta reiciendis quis architecto cumque tempore laboriosam doloribus, fugit modi ipsa eaque velit exercitationem, ipsam?</p>
+				<div class="espacio_pd ">
+					<h3>Visitanos</h3>
+					<p class="font-15">The Juilliard School</p>
+					<p class="font-15">60 Lincoln Center Plaza</p>
+					<p class="font-15">New York, NY 10023</p>
+					<p class="font-15">(212) 799-5000</p>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="espacio_pd ">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12085.865746194442!2d-73.9828286!3d40.7737587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses-419!2spe!4v1461345828455" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+  <!---->
+  			<!-- formulario -->
+
+			<div class="row formulario">
+				<div class="container ">
+					<h2 id="contact"><strong>Contáctanos</strong></h2>
+					<form action="index.html" method="get">
+					<p>
+						<div class="cuad_form">
+							<label for="nombre"><i class="icon-user"></i></label>
+							<input type="text" id="nombre" name="nombre" placeholder="Nombre" required >
+						</div>
+					</p>
+					<p>
+						<div class="cuad_form">
+							<label for="email"><i class="icon-mail2"></i></label>
+							<input type="email" id="email" name="email" placeholder="Email" required>
+						</div>
+					</p>
+					<p>
+						<div class="inf">
+							<label  for="informacion"><i class="icon-pencil2" id="lapiz"></i></label>
+							<textarea id="informacion" name="informacion" placeholder="Mensaje" cols="56" rows="10"  required></textarea>
+						</div>
+					</p>
+					<button class="blue" id="enviar" type="submit">ENVIAR</button>
+					</form>	
+				</div>
+			</div>
+	</section>
+	<footer class="row blue">
+			<div >
+				@escuela de danza Todos los derechos reservados
+			</div>
+	</footer>
+</body>
+</htm
